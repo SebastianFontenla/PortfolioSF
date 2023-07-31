@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:wght@700&family=Playfair+Display:ital@1&display=swap');
+
+
+body {
+    font-family: 'Gentium Book Plus', serif;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    background-image: url(Recursos/fondo.jpg);
+    background-size: cover;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+/* .contenedor {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+} */
+
+/* barra de navegacion */
+
+.home {
+    margin-bottom: 200px;
+    height: 45px;
+    background-color: rgb(255, 172, 72);
+}
+
+.linkedin {
+    margin-top: 250px;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+nav i {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+section {
+    margin-left: 60px;
+    width: 100%;
+    justify-content: center;
+}
+
+i {
+    color: aqua;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.tabla {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: fit-content;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: aqua;
+}
+
+td {
+    background-color: rgba(137, 43, 226, 0.651);
+}
+
+.Ejemplos img {
+    height: 250px;
+    width: 400px;
+}
+
+.Ejemplos {
+    display: flex;
+    justify-content: center;
+}
+
+.separados {
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.813);
+    border-radius: 5px;
+    border-style: solid;
+    border-color: silver;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.805);
+    color: aqua;
+    border-radius: 10px;
+    width: 60px;
+    margin-left: 40%;
+}
+
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    width: 600px;
+    height: 400px;
+}
+
+input[type="submit"] {
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.805);
+    color: aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 15px;
+}
+
+input[type="email"] {
+    width: 100%;
+    height: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 70px;
+}
+
+select {
+    width: 100%;
+    height: 25px;
+}
