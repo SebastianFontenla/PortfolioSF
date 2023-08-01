@@ -23,13 +23,23 @@ body {
 /* barra de navegacion */
 
 .home {
-    margin-bottom: 200px;
-    height: 45px;
+    padding: 5px;
+    padding-bottom: 10px;
     background-color: rgb(255, 172, 72);
 }
 
-.linkedin {
-    margin-top: 250px;
+#desp {
+    display: flex;
+    height: 120%;
+    flex-direction: column-reverse;
+    justify-self: end;
+}
+
+#social {
+    display: flex;
+    height: 100%;
+    flex-direction: column-reverse;
+    justify-self: end;
 }
 
 nav {
@@ -38,7 +48,7 @@ nav {
     width: 50px;
     height: 100%;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
 }
 
 nav i {
